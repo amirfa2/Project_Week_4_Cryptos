@@ -7,13 +7,13 @@ This project analyzes the relationships and correlations among three major crypt
 Hypotheses
 
 	1.	Bitcoin Price Movements Impact Other Cryptocurrencies
-        Significant price drops or increases in Bitcoin lead to similar trends in other major cryptocurrencies like Ethereum and Dogecoin.
+        	Significant price drops or increases in Bitcoin lead to similar trends in other major cryptocurrencies like Ethereum and Dogecoin.
 	2.	Bitcoin Trading Volume Influences Other Cryptos
-        Increases in Bitcoin’s trading volume are followed by increases in the trading volumes of other cryptocurrencies.
+        	Increases in Bitcoin’s trading volume are followed by increases in the trading volumes of other cryptocurrencies.
 	3.	Decreasing Bitcoin Market Dominance
-        Bitcoin’s market dominance has decreased over time, with Ethereum and Dogecoin gaining more market share.
+        	Bitcoin’s market dominance has decreased over time, with Ethereum and Dogecoin gaining more market share.
 	4.	Bitcoin’s Lower Volatility
-        Bitcoin shows lower volatility compared to other cryptocurrencies, particularly Dogecoin.
+        	Bitcoin shows lower volatility compared to other cryptocurrencies, particularly Dogecoin.
 
 Data Sources
 
@@ -23,14 +23,18 @@ We used three datasets from Kaggle:
 	•	coin_ethereum.csv
 	•	coin_dogecoin.csv
 
-These datasets were merged and cleaned for further analysis in SQL.
+These datasets were merged and cleaned for further analysis in SQL and modularized in Python.
 
 Key Findings
 
-	•	Volume Correlation: There is a notable correlation between the trading volumes of Bitcoin and other cryptocurrencies. However, Dogecoin    exhibited more extreme changes due to its higher volatility.
-	•	Market Diversification: The dominance of Bitcoin has decreased over time, reflecting a more diversified cryptocurrency market.
-	•	Volatility and Investment Risk:
+		Volume Correlation: 
+	• 	There is a notable correlation between the trading volumes of Bitcoin and other cryptocurrencies. However, Dogecoin exhibited more extreme changes due to its higher volatility.
+		Market Diversification:
+	•	The dominance of Bitcoin has decreased over time, reflecting a more diversified cryptocurrency market.
+		
+		Volatility and Investment Risk:
 	•	Bitcoin is relatively less volatile than other cryptocurrencies.
 	•	Dogecoin is more volatile, offering higher potential short-term gains but also greater risks.
-	•	Investors seeking stability should consider allocating a larger portion of their portfolio to Bitcoin and Ethereum while balancing riskier   investments like Dogecoin.
+	•	Investors seeking stability should consider allocating a larger portion of their portfolio to Bitcoin and Ethereum while balancing riskier investments like Dogecoin.
+
 Presentation Url: https://docs.google.com/presentation/d/1A40pjKiK_zTObghs-92OotXCVl-PKVv9fSRqcHs-Qvs/edit#slide=id.g307fb920164_1_4
